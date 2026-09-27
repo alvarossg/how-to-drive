@@ -10,7 +10,7 @@ class UTextRenderComponent;
 /**
  * Pizarra de encargos en la pared (UI diegética, ART_DIRECTION §12). Lee el estado replicado del
  * GameState en cada máquina: encargos pendientes, checklist, presupuesto y plazo; y la última
- * evaluación de entrega con sus ✔/✘.
+ * evaluación de entrega con sus [OK]/[X].
  */
 UCLASS()
 class HOWTOMECHANIC_API AJobBoard : public AActor

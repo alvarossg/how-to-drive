@@ -39,7 +39,7 @@ void AHTMGameState::AddMoney(int32 Delta, const FText& Reason)
 	else { DayMoneySpent += -Delta; }
 	OnRep_Money();
 
-	const FText Text = FText::Format(LOCTEXT("MoneyToast", "{0}{1} € · {2}"),
+	const FText Text = FText::Format(LOCTEXT("MoneyToast", "{0}{1} EUR · {2}"),
 		FText::FromString(Delta > 0 ? TEXT("+") : TEXT("")), FText::AsNumber(Delta), Reason);
 	MulticastToast(Text, Delta > 0 ? HTMPalette::CarLime() : HTMPalette::ToolRed());
 }
@@ -56,7 +56,7 @@ bool AHTMGameState::TrySpend(int32 Amount, const FText& Reason)
 	}
 	if (Money < Amount)
 	{
-		MulticastToast(FText::Format(LOCTEXT("NoMoney", "No hay dinero para: {0} ({1} €)"), Reason, FText::AsNumber(Amount)), HTMPalette::ToolRed());
+		MulticastToast(FText::Format(LOCTEXT("NoMoney", "No hay dinero para: {0} ({1} EUR)"), Reason, FText::AsNumber(Amount)), HTMPalette::ToolRed());
 		return false;
 	}
 	AddMoney(-Amount, Reason);

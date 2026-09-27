@@ -131,7 +131,7 @@ void AShelfSlot::OnRep_Stock()
 	Display->SetRelativeScale3D(Size / 100.f);
 	Display->SetRelativeLocation(FVector(0.f, 0.f, 8.f + Size.Z * 0.5f));
 	UHTMVisualLibrary::ApplyPlaceholderMaterial(Display, Row->PlaceholderColor);
-	SetLabel(FText::Format(LOCTEXT("PriceTag", "{0}\n{1} €"), Row->DisplayName, FText::AsNumber(Row->Price)));
+	SetLabel(FText::Format(LOCTEXT("PriceTag", "{0}\n{1} EUR"), Row->DisplayName, FText::AsNumber(Row->Price)));
 	Label->SetRelativeLocation(FVector(30.f, 0.f, -4.f));
 	Label->SetVerticalAlignment(EVRTA_TextTop);
 }
@@ -145,7 +145,7 @@ FText AShelfSlot::GetInteractionText(const AMechanicCharacter* Who, EInteraction
 {
 	const UHTMDataSubsystem* Data = UHTMDataSubsystem::Get(this);
 	const FPartDefinitionRow* Row = Data ? Data->FindPart(PartId) : nullptr;
-	return Row ? FText::Format(LOCTEXT("Buy", "Comprar {0} ({1} €)"), Row->DisplayName, FText::AsNumber(Row->Price)) : FText::GetEmpty();
+	return Row ? FText::Format(LOCTEXT("Buy", "Comprar {0} ({1} EUR)"), Row->DisplayName, FText::AsNumber(Row->Price)) : FText::GetEmpty();
 }
 
 void AShelfSlot::Interact(AMechanicCharacter* Who, EInteractionVerb Verb)
@@ -221,7 +221,7 @@ void ACashRegister::RefreshDisplay()
 	}
 	default:                 Phase = LOCTEXT("PhaseSummary", "FIN DEL DÍA"); break;
 	}
-	SetLabel(FText::Format(LOCTEXT("Register", "{0} €\nDía {1} · {2}\nRep. {3}"), FText::AsNumber(GS->Money), FText::AsNumber(GS->DayNumber),
+	SetLabel(FText::Format(LOCTEXT("Register", "{0} EUR\nDía {1} · {2}\nRep. {3}"), FText::AsNumber(GS->Money), FText::AsNumber(GS->DayNumber),
 		Phase, FText::AsNumber(FMath::RoundToInt(GS->Reputation))));
 }
 
@@ -312,7 +312,7 @@ void AJunkyardOfferSign::Tick(float DeltaSeconds)
 	}
 	else
 	{
-		SetLabel(FText::Format(LOCTEXT("Offer", "{0}\n{1} €\n\"{2}\""), Model->DisplayName, FText::AsNumber(Offer->Price), Offer->Hint));
+		SetLabel(FText::Format(LOCTEXT("Offer", "{0}\n{1} EUR\n\"{2}\""), Model->DisplayName, FText::AsNumber(Offer->Price), Offer->Hint));
 	}
 }
 
@@ -325,7 +325,7 @@ bool AJunkyardOfferSign::CanInteract(const AMechanicCharacter* Who, EInteraction
 FText AJunkyardOfferSign::GetInteractionText(const AMechanicCharacter* Who, EInteractionVerb Verb) const
 {
 	const FJunkyardOffer* Offer = GetOffer();
-	return Offer ? FText::Format(LOCTEXT("BuyCar", "Comprar este coche ({0} €) — estado: ???"), FText::AsNumber(Offer->Price)) : FText::GetEmpty();
+	return Offer ? FText::Format(LOCTEXT("BuyCar", "Comprar este coche ({0} EUR) - estado: ???"), FText::AsNumber(Offer->Price)) : FText::GetEmpty();
 }
 
 void AJunkyardOfferSign::Interact(AMechanicCharacter* Who, EInteractionVerb Verb)
@@ -388,7 +388,7 @@ void ASellPoint::Tick(float DeltaSeconds)
 	FText Quote = FText::GetEmpty();
 	if (Car && Buyer && Car->IsOwnedByWorkshop())
 	{
-		Quote = FText::Format(LOCTEXT("Quote", "\nOferta: {0} €"), FText::AsNumber(QuotePrice(Car, GS->TodaysBuyer, this)));
+		Quote = FText::Format(LOCTEXT("Quote", "\nOferta: {0} EUR"), FText::AsNumber(QuotePrice(Car, GS->TodaysBuyer, this)));
 	}
 	SetLabel(Buyer ? FText::Format(LOCTEXT("SellSign", "VENTA · Hoy compra: {0}\n{1}{2}"), Buyer->DisplayName, Buyer->LikesText, Quote) : LOCTEXT("SellNone", "VENTA"));
 }
@@ -445,7 +445,7 @@ FText ASellPoint::GetInteractionText(const AMechanicCharacter* Who, EInteraction
 {
 	const AHTMGameState* GS = GetWorld()->GetGameState<AHTMGameState>();
 	const AModularCar* Car = FindCarInZone();
-	return (GS && Car) ? FText::Format(LOCTEXT("Sell", "Vender {0} por {1} €"), Car->GetCarName(), FText::AsNumber(QuotePrice(Car, GS->TodaysBuyer, this))) : FText::GetEmpty();
+	return (GS && Car) ? FText::Format(LOCTEXT("Sell", "Vender {0} por {1} EUR"), Car->GetCarName(), FText::AsNumber(QuotePrice(Car, GS->TodaysBuyer, this))) : FText::GetEmpty();
 }
 
 void ASellPoint::Interact(AMechanicCharacter* Who, EInteractionVerb Verb)
@@ -540,7 +540,7 @@ bool ATowPhone::CanInteract(const AMechanicCharacter* Who, EInteractionVerb Verb
 
 FText ATowPhone::GetInteractionText(const AMechanicCharacter* Who, EInteractionVerb Verb) const
 {
-	return FText::Format(LOCTEXT("Tow", "Llamar a la grúa ({0} €): trae los coches perdidos o volcados"), FText::AsNumber(UHTMTuningData::Get().TowFee));
+	return FText::Format(LOCTEXT("Tow", "Llamar a la grúa ({0} EUR): trae los coches perdidos o volcados"), FText::AsNumber(UHTMTuningData::Get().TowFee));
 }
 
 void ATowPhone::Interact(AMechanicCharacter* Who, EInteractionVerb Verb)

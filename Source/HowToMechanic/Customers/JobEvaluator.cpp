@@ -14,20 +14,20 @@ FText FJobEvaluator::DescribeRequirement(const FJobRequirement& R)
 	{
 	case EJobRequirementType::FixNoisyFaults:             return LOCTEXT("ReqNoisy", "La avería que hace ruido está reparada");
 	case EJobRequirementType::FixAllFaults:               return LOCTEXT("ReqFaults", "Sin averías ocultas");
-	case EJobRequirementType::TopSpeedAtLeast:            return FText::Format(LOCTEXT("ReqSpeed", "≥ {0} km/h en la recta"), FText::AsNumber(FMath::RoundToInt(R.Value)));
+	case EJobRequirementType::TopSpeedAtLeast:            return FText::Format(LOCTEXT("ReqSpeed", ">= {0} km/h en la recta"), FText::AsNumber(FMath::RoundToInt(R.Value)));
 	case EJobRequirementType::HasPartId:                  return FText::Format(LOCTEXT("ReqPart", "Lleva: {0}"), FText::FromName(R.Param));
 	case EJobRequirementType::HasPartWithTag:             return FText::Format(LOCTEXT("ReqTag", "Pieza {0}"), FText::FromName(R.Param));
 	case EJobRequirementType::HasCategory:                return FText::Format(LOCTEXT("ReqCat", "Tiene {0}"), FText::FromName(R.Param));
 	case EJobRequirementType::VividPaint:                 return LOCTEXT("ReqVivid", "Carrocería de color vivo");
 	case EJobRequirementType::DistinctPaintColorsAtLeast: return FText::Format(LOCTEXT("ReqColors", "Pintado de {0} colores"), FText::AsNumber(FMath::RoundToInt(R.Value)));
-	case EJobRequirementType::FuelUseAtMost:              return FText::Format(LOCTEXT("ReqFuel", "Consumo ≤ {0}"), FText::AsNumber(R.Value));
-	case EJobRequirementType::TotalMassAtMost:            return FText::Format(LOCTEXT("ReqMass", "Peso ≤ {0} kg"), FText::AsNumber(FMath::RoundToInt(R.Value)));
-	case EJobRequirementType::WheelRadiusAtLeast:         return FText::Format(LOCTEXT("ReqWheel", "Ruedas de radio ≥ {0} cm"), FText::AsNumber(FMath::RoundToInt(R.Value)));
-	case EJobRequirementType::AirTimeAtLeast:             return FText::Format(LOCTEXT("ReqAir", "Salta la rampa (≥ {0} s en el aire)"), FText::AsNumber(R.Value));
+	case EJobRequirementType::FuelUseAtMost:              return FText::Format(LOCTEXT("ReqFuel", "Consumo <= {0}"), FText::AsNumber(R.Value));
+	case EJobRequirementType::TotalMassAtMost:            return FText::Format(LOCTEXT("ReqMass", "Peso <= {0} kg"), FText::AsNumber(FMath::RoundToInt(R.Value)));
+	case EJobRequirementType::WheelRadiusAtLeast:         return FText::Format(LOCTEXT("ReqWheel", "Ruedas de radio >= {0} cm"), FText::AsNumber(FMath::RoundToInt(R.Value)));
+	case EJobRequirementType::AirTimeAtLeast:             return FText::Format(LOCTEXT("ReqAir", "Salta la rampa (>= {0} s en el aire)"), FText::AsNumber(R.Value));
 	case EJobRequirementType::AllRequiredSlotsFilled:     return LOCTEXT("ReqComplete", "Coche completo");
 	case EJobRequirementType::NoLooseParts:               return LOCTEXT("ReqTight", "Sin piezas flojas");
 	case EJobRequirementType::NoBrokenParts:              return LOCTEXT("ReqBroken", "Sin piezas rotas");
-	case EJobRequirementType::MinAverageCondition:        return FText::Format(LOCTEXT("ReqCond", "Estado medio ≥ {0} %"), FText::AsNumber(FMath::RoundToInt(R.Value)));
+	case EJobRequirementType::MinAverageCondition:        return FText::Format(LOCTEXT("ReqCond", "Estado medio >= {0} %"), FText::AsNumber(FMath::RoundToInt(R.Value)));
 	default:                                              return FText::GetEmpty();
 	}
 }

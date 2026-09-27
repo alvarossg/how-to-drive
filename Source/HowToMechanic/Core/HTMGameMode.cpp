@@ -725,7 +725,7 @@ void AHTMGameMode::LoadWorkshop()
 		GS->WallColorIndex = LoadedSave->WallColorIndex;
 		GS->UnlockedCosmetics = LoadedSave->UnlockedCosmetics;
 		GS->RoomOptions = LoadedSave->RoomOptions;
-		UE_LOG(LogHTM, Log, TEXT("Partida cargada: día %d, %d €, nivel %d"), GS->DayNumber, GS->Money, GS->WorkshopLevel);
+		UE_LOG(LogHTM, Log, TEXT("Partida cargada: día %d, %d EUR, nivel %d"), GS->DayNumber, GS->Money, GS->WorkshopLevel);
 	}
 	else
 	{

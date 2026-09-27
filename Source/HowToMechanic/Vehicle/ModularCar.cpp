@@ -916,7 +916,7 @@ void AModularCar::ServerTickTraits(float DeltaSeconds)
 	}
 	else if (HasTrait(ECarTrait::RadioStuckOn) && bEngineRunning)
 	{
-		MulticastHorn(LOCTEXT("Radio", "♪ ♫ la radio no se apaga ♫ ♪"));
+		MulticastHorn(LOCTEXT("Radio", "~ la radio no se apaga ~"));
 	}
 	else if (HasTrait(ECarTrait::SmellsWeird))
 	{

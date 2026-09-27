@@ -84,7 +84,7 @@ void ACustomerNPC::InitCustomer(int32 InJobUid, const FText& InName, const FText
 void ACustomerNPC::OnRep_Customer()
 {
 	UHTMVisualLibrary::ApplyPlaceholderMaterial(Body, Color);
-	Bubble->SetText(FText::Format(LOCTEXT("Bubble", "{0}:\n“{1}”"), CustomerName, Request));
+	Bubble->SetText(FText::Format(LOCTEXT("Bubble", "{0}:\n«{1}»"), CustomerName, Request));
 }
 
 void ACustomerNPC::React(EJobOutcome Outcome)

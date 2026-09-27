@@ -259,7 +259,7 @@ AHydraulicLift::AHydraulicLift()
 	PanelLabel->SetUsingAbsoluteScale(true);
 	PanelLabel->SetHorizontalAlignment(EHTA_Center);
 	PanelLabel->SetWorldSize(18.f);
-	PanelLabel->SetText(LOCTEXT("LiftPanel", "▲ ELEVADOR ▼"));
+	PanelLabel->SetText(LOCTEXT("LiftPanel", "ELEVADOR (subir / bajar)"));
 }
 
 void AHydraulicLift::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

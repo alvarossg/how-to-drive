@@ -93,7 +93,7 @@ void AJobBoard::Refresh()
 			continue;
 		}
 		++Shown;
-		JobsText += FString::Printf(TEXT("%s  (%d €)\n  \"%s\"\n"), *Job.CustomerName.ToString(), Job.Budget, *Job.RequestText.ToString());
+		JobsText += FString::Printf(TEXT("%s  (%d EUR)\n  \"%s\"\n"), *Job.CustomerName.ToString(), Job.Budget, *Job.RequestText.ToString());
 		if (Job.Car)
 		{
 			JobsText += FString::Printf(TEXT("  Coche: %s  %s\n"), *Job.Car->GetCarName().ToString(), *Job.Car->GetPlate());
@@ -101,7 +101,7 @@ void AJobBoard::Refresh()
 		if (Job.DeadlineServerTime > 0.f)
 		{
 			const int32 Left = FMath::Max(0, FMath::RoundToInt(Job.DeadlineServerTime - Now));
-			JobsText += FString::Printf(TEXT("  ⏱ %d:%02d\n"), Left / 60, Left % 60);
+			JobsText += FString::Printf(TEXT("  Plazo %d:%02d\n"), Left / 60, Left % 60);
 		}
 		for (const FText& Label : Job.RequirementLabels)
 		{
@@ -121,10 +121,10 @@ void AJobBoard::Refresh()
 		FString Result = FString::Printf(TEXT("ÚLTIMA ENTREGA: %s\n"), *Eval.CustomerName.ToString());
 		for (int32 i = 0; i < Eval.Labels.Num(); ++i)
 		{
-			Result += FString::Printf(TEXT(" %s %s\n"), Eval.Passed.IsValidIndex(i) && Eval.Passed[i] ? TEXT("✔") : TEXT("✘"), *Eval.Labels[i].ToString());
+			Result += FString::Printf(TEXT(" %s %s\n"), Eval.Passed.IsValidIndex(i) && Eval.Passed[i] ? TEXT("[OK]") : TEXT("[X]"), *Eval.Labels[i].ToString());
 		}
 		const TCHAR* Outcome = Eval.Outcome == EJobOutcome::FullPay ? TEXT("PAGO COMPLETO") : Eval.Outcome == EJobOutcome::PartialPay ? TEXT("PAGO PARCIAL") : TEXT("CLIENTE ENFADADO");
-		Result += FString::Printf(TEXT("\n%s: %d €"), Outcome, Eval.Payment);
+		Result += FString::Printf(TEXT("\n%s: %d EUR"), Outcome, Eval.Payment);
 		LastResult->SetText(FText::FromString(Result));
 	}
 }

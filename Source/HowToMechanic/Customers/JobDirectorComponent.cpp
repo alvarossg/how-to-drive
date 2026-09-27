@@ -203,7 +203,7 @@ void UJobDirectorComponent::SpawnCustomer(FName JobId)
 		Customers.Add(Uid, Npc);
 	}
 
-	GS->MulticastToast(FText::Format(LOCTEXT("NewCustomer", "Nuevo cliente: {0} — “{1}”"), Def->CustomerName, Def->RequestText), HTMPalette::CarSky());
+	GS->MulticastToast(FText::Format(LOCTEXT("NewCustomer", "Nuevo cliente: {0} - «{1}»"), Def->CustomerName, Def->RequestText), HTMPalette::CarSky());
 }
 
 bool UJobDirectorComponent::DeliverCar(AModularCar* Car, AMechanicCharacter* Who)

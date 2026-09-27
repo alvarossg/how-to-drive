@@ -51,7 +51,7 @@ void AWorkshopUpgradeTerminal::Tick(float DeltaSeconds)
 		SetLabel(LOCTEXT("MaxLevel", "TALLER AL MÁXIMO"));
 		return;
 	}
-	SetLabel(FText::Format(LOCTEXT("NextLevel", "AMPLIAR:\n{0}\n{1} € · Rep. {2}"), Next->DisplayName, FText::AsNumber(Next->UpgradeCost), FText::AsNumber(FMath::RoundToInt(Next->MinReputation))));
+	SetLabel(FText::Format(LOCTEXT("NextLevel", "AMPLIAR:\n{0}\n{1} EUR · Rep. {2}"), Next->DisplayName, FText::AsNumber(Next->UpgradeCost), FText::AsNumber(FMath::RoundToInt(Next->MinReputation))));
 }
 
 bool AWorkshopUpgradeTerminal::CanInteract(const AMechanicCharacter* Who, EInteractionVerb Verb) const
@@ -193,7 +193,7 @@ FText AWardrobe::GetInteractionText(const AMechanicCharacter* Who, EInteractionV
 		return FText::GetEmpty();
 	}
 	return Verb == EInteractionVerb::Use ? FText::Format(LOCTEXT("Wear", "Ponerse: {0}"), Row->DisplayName)
-		: FText::Format(LOCTEXT("BuyCosmetic", "Comprar {0} ({1} €)"), Row->DisplayName, FText::AsNumber(Row->Price));
+		: FText::Format(LOCTEXT("BuyCosmetic", "Comprar {0} ({1} EUR)"), Row->DisplayName, FText::AsNumber(Row->Price));
 }
 
 void AWardrobe::Interact(AMechanicCharacter* Who, EInteractionVerb Verb)
