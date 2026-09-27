@@ -281,4 +281,5 @@ protected:
 	TMap<TWeakObjectPtr<AMechanicCharacter>, float> RecentPushers;
 	TMap<TWeakObjectPtr<AMechanicCharacter>, float> RecentFlippers;
 	TWeakObjectPtr<AMechanicCharacter> LastStarter;
+	float LastIgnitionAttempt = -10.f;
 };

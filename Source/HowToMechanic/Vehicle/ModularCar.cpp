@@ -1261,6 +1261,18 @@ void AModularCar::ServerSetDriveInput_Implementation(int8 Throttle, int8 Brake, 
 	InputBrake = FMath::Clamp(Brake / 100.f, 0.f, 1.f);
 	InputSteer = FMath::Clamp(Steer / 100.f, -1.f, 1.f);
 	bInputHandbrake = bHandbrakeHeld;
+
+	// Desde dentro: acelerar con el motor apagado da al contacto; tirar del freno de mano quita el de aparcar.
+	const float Now = GetWorld()->GetTimeSeconds();
+	if (!bEngineRunning && InputThrottle > 0.3f && Now - LastIgnitionAttempt > 1.5f)
+	{
+		LastIgnitionAttempt = Now;
+		SetEngineRunning(true, Driver);
+	}
+	if (bHandbrakeHeld && bHandbrake)
+	{
+		SetHandbrake(false);
+	}
 }
 
 void AModularCar::ServerExit_Implementation()
