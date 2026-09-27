@@ -6,18 +6,25 @@
 const UHTMTuningData& UHTMTuningData::Get()
 {
 	static TWeakObjectPtr<const UHTMTuningData> Cached;
+	// Se intenta cargar DA_Tuning una sola vez (y otra si el asset se descarga): se consulta cada frame
+	// y un asset que aún no existe no debe provocar intentos de carga continuos.
+	static bool bTriedLoad = false;
 	if (const UHTMTuningData* Asset = Cached.Get())
 	{
 		return *Asset;
 	}
-
-	const UHTMSettings* Settings = UHTMSettings::Get();
-	if (!Settings->Tuning.IsNull())
+	if (!bTriedLoad)
 	{
-		if (const UHTMTuningData* Loaded = Settings->Tuning.LoadSynchronous())
+		bTriedLoad = true;
+		const UHTMSettings* Settings = UHTMSettings::Get();
+		if (!Settings->Tuning.IsNull())
 		{
-			Cached = Loaded;
-			return *Loaded;
+			if (const UHTMTuningData* Loaded = Settings->Tuning.LoadSynchronous())
+			{
+				Cached = Loaded;
+				bTriedLoad = false; // si se descarga (GC tras recargar), se vuelve a intentar
+				return *Loaded;
+			}
 		}
 	}
 	return *GetDefault<UHTMTuningData>();

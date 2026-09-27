@@ -136,6 +136,15 @@ void AHTMGameMode::StartPlay()
 			Params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 			GetWorld()->SpawnActor<APlayerStart>(APlayerStart::StaticClass(), T, Params);
 		}
+		// Quien entró antes de que existieran los puntos de aparición (el anfitrión en PIE) se quedó sin cuerpo.
+		for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+		{
+			APlayerController* PC = It->Get();
+			if (PC && !PC->GetPawn() && PlayerCanRestart(PC))
+			{
+				RestartPlayer(PC);
+			}
+		}
 	}
 
 	GenerateJunkyardOffers();
