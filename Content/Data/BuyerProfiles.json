@@ -1,0 +1,77 @@
+[
+ {
+  "Name": "Buyer_Racer",
+  "DisplayName": "Aficionada a las carreras",
+  "LikesText": "Le gustan las piezas deportivas y los colores chillones",
+  "LikedTags": [
+   "Sport"
+  ],
+  "ConditionWeight": 1.0,
+  "CompletenessWeight": 1.0,
+  "TagBonus": 0.15,
+  "VividPaintBonus": 0.2,
+  "BigWheelsBonus": 0.0,
+  "LowFuelBonus": 0.0,
+  "Weight": 1.0
+ },
+ {
+  "Name": "Buyer_Farmer",
+  "DisplayName": "Agricultor",
+  "LikesText": "Quiere ruedas grandes y que aguante lo que sea",
+  "LikedTags": [
+   "Offroad"
+  ],
+  "ConditionWeight": 0.7,
+  "CompletenessWeight": 1.0,
+  "TagBonus": 0.15,
+  "VividPaintBonus": 0.0,
+  "BigWheelsBonus": 0.25,
+  "LowFuelBonus": 0.0,
+  "Weight": 1.0
+ },
+ {
+  "Name": "Buyer_Eco",
+  "DisplayName": "Estudiante ecologista",
+  "LikesText": "Busca algo que gaste poco",
+  "LikedTags": [
+   "Eco"
+  ],
+  "ConditionWeight": 1.0,
+  "CompletenessWeight": 1.0,
+  "TagBonus": 0.15,
+  "VividPaintBonus": 0.0,
+  "BigWheelsBonus": 0.0,
+  "LowFuelBonus": 0.3,
+  "Weight": 1.0
+ },
+ {
+  "Name": "Buyer_Collector",
+  "DisplayName": "Coleccionista",
+  "LikesText": "Solo piezas originales y en buen estado",
+  "LikedTags": [
+   "Original"
+  ],
+  "ConditionWeight": 1.6,
+  "CompletenessWeight": 1.4,
+  "TagBonus": 0.05,
+  "VividPaintBonus": 0.0,
+  "BigWheelsBonus": 0.0,
+  "LowFuelBonus": 0.0,
+  "Weight": 1.0
+ },
+ {
+  "Name": "Buyer_Weird",
+  "DisplayName": "Vecino excéntrico",
+  "LikesText": "Cuanto más absurdo, mejor",
+  "LikedTags": [
+   "Absurd"
+  ],
+  "ConditionWeight": 0.5,
+  "CompletenessWeight": 0.6,
+  "TagBonus": 0.3,
+  "VividPaintBonus": 0.1,
+  "BigWheelsBonus": 0.0,
+  "LowFuelBonus": 0.0,
+  "Weight": 0.7
+ }
+]

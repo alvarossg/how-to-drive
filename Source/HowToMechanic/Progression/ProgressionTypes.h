@@ -23,7 +23,7 @@ struct FWorkshopLevelRow : public FTableRowBase
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) bool bHasEngineCrane = false;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) bool bHasPaintBooth = false;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) bool bHasScanner = false;
-	/** Herramientas que aparecen en el panel de herramientas a este nivel (acumulativo). */
+	/** Herramientas NUEVAS que aparecen en el banco al llegar a este nivel (se suman a las de niveles anteriores). */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) TArray<EToolType> Tools;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) int32 ShelfSlots = 6;
 };
@@ -71,5 +71,6 @@ struct FCarNameRow : public FTableRowBase
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly) FText Name;
+	/** Nombre visible. (No se llama "Name": esa clave es el nombre de fila en el JSON.) */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly) FText CarName;
 };

@@ -1,0 +1,100 @@
+[
+ {
+  "Name": "Level_1",
+  "Level": 1,
+  "DisplayName": "Garaje cutre",
+  "UpgradeCost": 0,
+  "MinReputation": 0,
+  "Bays": 1,
+  "FloorSize": {
+   "X": 1400,
+   "Y": 1200
+  },
+  "bHasJackStands": false,
+  "bHasLift": false,
+  "bHasEngineCrane": false,
+  "bHasPaintBooth": false,
+  "bHasScanner": false,
+  "Tools": [
+   "Wrench",
+   "TireIron",
+   "Screwdriver",
+   "Stethoscope",
+   "Extinguisher",
+   "Hose",
+   "Sponge"
+  ],
+  "ShelfSlots": 6
+ },
+ {
+  "Name": "Level_2",
+  "Level": 2,
+  "DisplayName": "Taller de barrio",
+  "UpgradeCost": 2500,
+  "MinReputation": 15,
+  "Bays": 2,
+  "FloorSize": {
+   "X": 2200,
+   "Y": 1500
+  },
+  "bHasJackStands": true,
+  "bHasLift": true,
+  "bHasEngineCrane": false,
+  "bHasPaintBooth": false,
+  "bHasScanner": false,
+  "Tools": [
+   "Sander",
+   "PaintGun",
+   "Wrench",
+   "TireIron"
+  ],
+  "ShelfSlots": 10
+ },
+ {
+  "Name": "Level_3",
+  "Level": 3,
+  "DisplayName": "Taller profesional",
+  "UpgradeCost": 7000,
+  "MinReputation": 40,
+  "Bays": 4,
+  "FloorSize": {
+   "X": 3200,
+   "Y": 1900
+  },
+  "bHasJackStands": true,
+  "bHasLift": true,
+  "bHasEngineCrane": true,
+  "bHasPaintBooth": true,
+  "bHasScanner": true,
+  "Tools": [
+   "Scanner",
+   "Screwdriver",
+   "Extinguisher"
+  ],
+  "ShelfSlots": 14
+ },
+ {
+  "Name": "Level_4",
+  "Level": 4,
+  "DisplayName": "Imperio del motor",
+  "UpgradeCost": 16000,
+  "MinReputation": 80,
+  "Bays": 4,
+  "FloorSize": {
+   "X": 4200,
+   "Y": 2300
+  },
+  "bHasJackStands": true,
+  "bHasLift": true,
+  "bHasEngineCrane": true,
+  "bHasPaintBooth": true,
+  "bHasScanner": true,
+  "Tools": [
+   "PaintGun",
+   "Hose",
+   "Stethoscope",
+   "Wrench"
+  ],
+  "ShelfSlots": 18
+ }
+]

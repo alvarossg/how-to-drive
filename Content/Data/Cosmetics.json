@@ -1,0 +1,306 @@
+[
+ {
+  "Name": "Hat_Cap_Blue",
+  "Slot": "Hat",
+  "DisplayName": "Gorra azul",
+  "ShapeId": "Cap",
+  "Color": {
+   "R": 0.0482,
+   "G": 0.2016,
+   "B": 0.4397,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "Hat_None",
+  "Slot": "Hat",
+  "DisplayName": "Sin gorro",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "Hat_Cap_Red",
+  "Slot": "Hat",
+  "DisplayName": "Gorra roja",
+  "ShapeId": "Cap",
+  "Color": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "Price": 60,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Hat_Beanie_Mint",
+  "Slot": "Hat",
+  "DisplayName": "Gorro de lana menta",
+  "ShapeId": "Beanie",
+  "Color": {
+   "R": 0.2747,
+   "G": 0.5333,
+   "B": 0.3968,
+   "A": 1.0
+  },
+  "Price": 90,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Hat_Helmet_Yellow",
+  "Slot": "Hat",
+  "DisplayName": "Casco de obra (te cayó un motor encima)",
+  "ShapeId": "Helmet",
+  "Color": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "EngineFellOnYou",
+  "AchievementCount": 1,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Hat_Goggles",
+  "Slot": "Hat",
+  "DisplayName": "Gafas de soldador (3 veces atrapado)",
+  "ShapeId": "Goggles",
+  "Color": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesTrapped",
+  "AchievementCount": 3,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Outfit_Apron_Orange",
+  "Slot": "Outfit",
+  "DisplayName": "Delantal naranja",
+  "ShapeId": "Apron",
+  "Color": {
+   "R": 1.0,
+   "G": 0.2542,
+   "B": 0.0467,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "Outfit_Overalls_Blue",
+  "Slot": "Outfit",
+  "DisplayName": "Mono azul",
+  "ShapeId": "Overalls",
+  "Color": {
+   "R": 0.0482,
+   "G": 0.2016,
+   "B": 0.4397,
+   "A": 1.0
+  },
+  "Price": 140,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Outfit_Overalls_Scorched",
+  "Slot": "Outfit",
+  "DisplayName": "Mono chamuscado (3 incendios)",
+  "ShapeId": "Overalls",
+  "Color": {
+   "R": 0.1119,
+   "G": 0.1022,
+   "B": 0.0953,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "FiresStarted",
+  "AchievementCount": 3,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Outfit_Hoodie_Salmon",
+  "Slot": "Outfit",
+  "DisplayName": "Sudadera salmón (5 ruedas perdidas)",
+  "ShapeId": "Hoodie",
+  "Color": {
+   "R": 0.9047,
+   "G": 0.3515,
+   "B": 0.2623,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "WheelsLost",
+  "AchievementCount": 5,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Outfit_Hoodie_Sky",
+  "Slot": "Outfit",
+  "DisplayName": "Sudadera celeste",
+  "ShapeId": "Hoodie",
+  "Color": {
+   "R": 0.3419,
+   "G": 0.6867,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Price": 110,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Gloves_None",
+  "Slot": "Gloves",
+  "DisplayName": "Sin guantes",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "Gloves_Mitts_Yellow",
+  "Slot": "Gloves",
+  "DisplayName": "Guantes amarillos",
+  "ShapeId": "Mitts",
+  "Color": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "Price": 40,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "Gloves_Mitts_Red",
+  "Slot": "Gloves",
+  "DisplayName": "Guantes rojos (10 KO)",
+  "ShapeId": "Mitts",
+  "Color": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 10,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "ToolColor_Red",
+  "Slot": "ToolColor",
+  "DisplayName": "Herramientas rojas",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "ToolColor_Blue",
+  "Slot": "ToolColor",
+  "DisplayName": "Herramientas azules",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.0482,
+   "G": 0.2016,
+   "B": 0.4397,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": true
+ },
+ {
+  "Name": "ToolColor_Lime",
+  "Slot": "ToolColor",
+  "DisplayName": "Herramientas lima",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.4851,
+   "G": 0.7454,
+   "B": 0.1441,
+   "A": 1.0
+  },
+  "Price": 70,
+  "Achievement": "TimesKO",
+  "AchievementCount": 0,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "ToolColor_Sky",
+  "Slot": "ToolColor",
+  "DisplayName": "Herramientas celestes (3 coches volcados)",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.3419,
+   "G": 0.6867,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "CarsFlipped",
+  "AchievementCount": 3,
+  "bUnlockedByDefault": false
+ },
+ {
+  "Name": "ToolColor_Chrome",
+  "Slot": "ToolColor",
+  "DisplayName": "Herramientas cromadas (5 trabajos perfectos)",
+  "ShapeId": "None",
+  "Color": {
+   "R": 0.6939,
+   "G": 0.7231,
+   "B": 0.7605,
+   "A": 1.0
+  },
+  "Price": 0,
+  "Achievement": "PerfectJobs",
+  "AchievementCount": 5,
+  "bUnlockedByDefault": false
+ }
+]

@@ -1,0 +1,2857 @@
+[
+ {
+  "Name": "Car_Tiny",
+  "DisplayName": "Utilitario diminuto",
+  "ChassisExtent": {
+   "X": 140,
+   "Y": 75,
+   "Z": 24
+  },
+  "CabinExtent": {
+   "X": 70,
+   "Y": 68,
+   "Z": 38
+  },
+  "CabinOffset": {
+   "X": -15,
+   "Y": 0,
+   "Z": 62
+  },
+  "ChassisMassKg": 380,
+  "BaseValue": 1400,
+  "JunkyardPriceMin": 200,
+  "JunkyardPriceMax": 450,
+  "DriveType": 1,
+  "SeatOffset": {
+   "X": -20,
+   "Y": -28,
+   "Z": 30
+  },
+  "ExitOffset": {
+   "X": -20,
+   "Y": -180,
+   "Z": 60
+  },
+  "FinalDriveRatio": 7.0,
+  "Slots": [
+   {
+    "SlotName": "Suspension_FL",
+    "Category": "Suspension",
+    "Location": {
+     "X": 95,
+     "Y": -60.800000000000004,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Suspension_FR",
+    "Category": "Suspension",
+    "Location": {
+     "X": 95,
+     "Y": 60.800000000000004,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Suspension_RL",
+    "Category": "Suspension",
+    "Location": {
+     "X": -95,
+     "Y": -60.800000000000004,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Suspension_RR",
+    "Category": "Suspension",
+    "Location": {
+     "X": -95,
+     "Y": 60.800000000000004,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Wheel_FL",
+    "Category": "Wheel",
+    "Location": {
+     "X": 95,
+     "Y": -76,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Wheel_FR",
+    "Category": "Wheel",
+    "Location": {
+     "X": 95,
+     "Y": 76,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Wheel_RL",
+    "Category": "Wheel",
+    "Location": {
+     "X": -95,
+     "Y": -76,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Wheel_RR",
+    "Category": "Wheel",
+    "Location": {
+     "X": -95,
+     "Y": 76,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Hood",
+    "Category": "Hood",
+    "Location": {
+     "X": 90,
+     "Y": 0,
+     "Z": 32
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Hood_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Engine",
+    "Category": "Engine",
+    "Location": {
+     "X": 85,
+     "Y": 0,
+     "Z": 19
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Engine_I3",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Exhaust",
+    "Category": "Exhaust",
+    "Location": {
+     "X": -130,
+     "Y": 30.0,
+     "Z": -22
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Exhaust_Standard",
+    "ParentSlot": "Engine",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Horn",
+    "Category": "Horn",
+    "Location": {
+     "X": 130,
+     "Y": 37.5,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Horn_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_F",
+    "Category": "Bumper",
+    "Location": {
+     "X": 146,
+     "Y": 0,
+     "Z": -12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Front",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_R",
+    "Category": "Bumper",
+    "Location": {
+     "X": -146,
+     "Y": 0,
+     "Z": -12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Rear",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_L",
+    "Category": "Headlight",
+    "Location": {
+     "X": 140,
+     "Y": -57,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_R",
+    "Category": "Headlight",
+    "Location": {
+     "X": 140,
+     "Y": 57,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_L",
+    "Category": "Taillight",
+    "Location": {
+     "X": -140,
+     "Y": -59,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_R",
+    "Category": "Taillight",
+    "Location": {
+     "X": -140,
+     "Y": 59,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_L",
+    "Category": "Door",
+    "Location": {
+     "X": -15,
+     "Y": -79,
+     "Z": 44
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_R",
+    "Category": "Door",
+    "Location": {
+     "X": -15,
+     "Y": 79,
+     "Z": 44
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_L",
+    "Category": "Window",
+    "Location": {
+     "X": -15,
+     "Y": -81,
+     "Z": 86
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_L",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_R",
+    "Category": "Window",
+    "Location": {
+     "X": -15,
+     "Y": 81,
+     "Z": 86
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Windshield",
+    "Category": "Windshield",
+    "Location": {
+     "X": 59,
+     "Y": 0,
+     "Z": 67
+    },
+    "Rotation": {
+     "Pitch": -25,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Windshield_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Seat",
+    "Category": "Seat",
+    "Location": {
+     "X": -20,
+     "Y": -28,
+     "Z": 44
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Seat_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Door_L",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "SteeringWheel",
+    "Category": "SteeringWheel",
+    "Location": {
+     "X": 20,
+     "Y": -28,
+     "Z": 66
+    },
+    "Rotation": {
+     "Pitch": 60,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "SteeringWheel_Standard",
+    "ParentSlot": "Seat",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Radio",
+    "Category": "Radio",
+    "Location": {
+     "X": 35,
+     "Y": 0,
+     "Z": 54
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Radio_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Spoiler",
+    "Category": "Spoiler",
+    "Location": {
+     "X": -130,
+     "Y": 0,
+     "Z": 54
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Roof",
+    "Category": "Accessory",
+    "Location": {
+     "X": -15,
+     "Y": 0,
+     "Z": 106
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   }
+  ],
+  "BodyMesh": "",
+  "SpawnWeight": 1.4
+ },
+ {
+  "Name": "Car_Sedan",
+  "DisplayName": "Berlina familiar",
+  "ChassisExtent": {
+   "X": 175,
+   "Y": 82,
+   "Z": 26
+  },
+  "CabinExtent": {
+   "X": 95,
+   "Y": 74,
+   "Z": 40
+  },
+  "CabinOffset": {
+   "X": -20,
+   "Y": 0,
+   "Z": 66
+  },
+  "ChassisMassKg": 480,
+  "BaseValue": 2200,
+  "JunkyardPriceMin": 300,
+  "JunkyardPriceMax": 650,
+  "DriveType": 0,
+  "SeatOffset": {
+   "X": -10,
+   "Y": -30,
+   "Z": 30
+  },
+  "ExitOffset": {
+   "X": -10,
+   "Y": -195,
+   "Z": 60
+  },
+  "FinalDriveRatio": 7.0,
+  "Slots": [
+   {
+    "SlotName": "Suspension_FL",
+    "Category": "Suspension",
+    "Location": {
+     "X": 118,
+     "Y": -67.2,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Suspension_FR",
+    "Category": "Suspension",
+    "Location": {
+     "X": 118,
+     "Y": 67.2,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Suspension_RL",
+    "Category": "Suspension",
+    "Location": {
+     "X": -112,
+     "Y": -67.2,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Suspension_RR",
+    "Category": "Suspension",
+    "Location": {
+     "X": -112,
+     "Y": 67.2,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Wheel_FL",
+    "Category": "Wheel",
+    "Location": {
+     "X": 118,
+     "Y": -84,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Wheel_FR",
+    "Category": "Wheel",
+    "Location": {
+     "X": 118,
+     "Y": 84,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Wheel_RL",
+    "Category": "Wheel",
+    "Location": {
+     "X": -112,
+     "Y": -84,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Wheel_RR",
+    "Category": "Wheel",
+    "Location": {
+     "X": -112,
+     "Y": 84,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Hood",
+    "Category": "Hood",
+    "Location": {
+     "X": 125,
+     "Y": 0,
+     "Z": 34
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Hood_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Engine",
+    "Category": "Engine",
+    "Location": {
+     "X": 120,
+     "Y": 0,
+     "Z": 21
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Engine_I3",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Exhaust",
+    "Category": "Exhaust",
+    "Location": {
+     "X": -165,
+     "Y": 32.800000000000004,
+     "Z": -24
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Exhaust_Standard",
+    "ParentSlot": "Engine",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Horn",
+    "Category": "Horn",
+    "Location": {
+     "X": 165,
+     "Y": 41.0,
+     "Z": 14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Horn_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_F",
+    "Category": "Bumper",
+    "Location": {
+     "X": 181,
+     "Y": 0,
+     "Z": -14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Front",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_R",
+    "Category": "Bumper",
+    "Location": {
+     "X": -181,
+     "Y": 0,
+     "Z": -14
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Rear",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_L",
+    "Category": "Headlight",
+    "Location": {
+     "X": 175,
+     "Y": -64,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_R",
+    "Category": "Headlight",
+    "Location": {
+     "X": 175,
+     "Y": 64,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_L",
+    "Category": "Taillight",
+    "Location": {
+     "X": -175,
+     "Y": -66,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_R",
+    "Category": "Taillight",
+    "Location": {
+     "X": -175,
+     "Y": 66,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_L",
+    "Category": "Door",
+    "Location": {
+     "X": -20,
+     "Y": -86,
+     "Z": 46
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_R",
+    "Category": "Door",
+    "Location": {
+     "X": -20,
+     "Y": 86,
+     "Z": 46
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_L",
+    "Category": "Window",
+    "Location": {
+     "X": -20,
+     "Y": -88,
+     "Z": 88
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_L",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_R",
+    "Category": "Window",
+    "Location": {
+     "X": -20,
+     "Y": 88,
+     "Z": 88
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Windshield",
+    "Category": "Windshield",
+    "Location": {
+     "X": 79,
+     "Y": 0,
+     "Z": 71
+    },
+    "Rotation": {
+     "Pitch": -25,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Windshield_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Seat",
+    "Category": "Seat",
+    "Location": {
+     "X": -10,
+     "Y": -30,
+     "Z": 46
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Seat_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Door_L",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "SteeringWheel",
+    "Category": "SteeringWheel",
+    "Location": {
+     "X": 30,
+     "Y": -30,
+     "Z": 68
+    },
+    "Rotation": {
+     "Pitch": 60,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "SteeringWheel_Standard",
+    "ParentSlot": "Seat",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Radio",
+    "Category": "Radio",
+    "Location": {
+     "X": 45,
+     "Y": 0,
+     "Z": 56
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Radio_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Spoiler",
+    "Category": "Spoiler",
+    "Location": {
+     "X": -165,
+     "Y": 0,
+     "Z": 56
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Roof",
+    "Category": "Accessory",
+    "Location": {
+     "X": -20,
+     "Y": 0,
+     "Z": 112
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   }
+  ],
+  "BodyMesh": "",
+  "SpawnWeight": 1.2
+ },
+ {
+  "Name": "Car_Van",
+  "DisplayName": "Furgoneta de reparto",
+  "ChassisExtent": {
+   "X": 205,
+   "Y": 90,
+   "Z": 34
+  },
+  "CabinExtent": {
+   "X": 150,
+   "Y": 86,
+   "Z": 70
+  },
+  "CabinOffset": {
+   "X": -35,
+   "Y": 0,
+   "Z": 104
+  },
+  "ChassisMassKg": 650,
+  "BaseValue": 2600,
+  "JunkyardPriceMin": 350,
+  "JunkyardPriceMax": 700,
+  "DriveType": 0,
+  "SeatOffset": {
+   "X": 70,
+   "Y": -34,
+   "Z": 40
+  },
+  "ExitOffset": {
+   "X": 70,
+   "Y": -210,
+   "Z": 70
+  },
+  "FinalDriveRatio": 8.0,
+  "Slots": [
+   {
+    "SlotName": "Suspension_FL",
+    "Category": "Suspension",
+    "Location": {
+     "X": 140,
+     "Y": -73.60000000000001,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Suspension_FR",
+    "Category": "Suspension",
+    "Location": {
+     "X": 140,
+     "Y": 73.60000000000001,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Suspension_RL",
+    "Category": "Suspension",
+    "Location": {
+     "X": -135,
+     "Y": -73.60000000000001,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Suspension_RR",
+    "Category": "Suspension",
+    "Location": {
+     "X": -135,
+     "Y": 73.60000000000001,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Wheel_FL",
+    "Category": "Wheel",
+    "Location": {
+     "X": 140,
+     "Y": -92,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Wheel_FR",
+    "Category": "Wheel",
+    "Location": {
+     "X": 140,
+     "Y": 92,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_FR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Wheel_RL",
+    "Category": "Wheel",
+    "Location": {
+     "X": -135,
+     "Y": -92,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Wheel_RR",
+    "Category": "Wheel",
+    "Location": {
+     "X": -135,
+     "Y": 92,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Standard",
+    "ParentSlot": "Suspension_RR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Hood",
+    "Category": "Hood",
+    "Location": {
+     "X": 155,
+     "Y": 0,
+     "Z": 42
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Hood_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Engine",
+    "Category": "Engine",
+    "Location": {
+     "X": 150,
+     "Y": 0,
+     "Z": 29
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Engine_I3",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Exhaust",
+    "Category": "Exhaust",
+    "Location": {
+     "X": -195,
+     "Y": 36.0,
+     "Z": -32
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Exhaust_Standard",
+    "ParentSlot": "Engine",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Horn",
+    "Category": "Horn",
+    "Location": {
+     "X": 195,
+     "Y": 45.0,
+     "Z": 22
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Horn_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_F",
+    "Category": "Bumper",
+    "Location": {
+     "X": 211,
+     "Y": 0,
+     "Z": -22
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Front",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_R",
+    "Category": "Bumper",
+    "Location": {
+     "X": -211,
+     "Y": 0,
+     "Z": -22
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Rear",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_L",
+    "Category": "Headlight",
+    "Location": {
+     "X": 205,
+     "Y": -72,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_R",
+    "Category": "Headlight",
+    "Location": {
+     "X": 205,
+     "Y": 72,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_L",
+    "Category": "Taillight",
+    "Location": {
+     "X": -205,
+     "Y": -74,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_R",
+    "Category": "Taillight",
+    "Location": {
+     "X": -205,
+     "Y": 74,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_L",
+    "Category": "Door",
+    "Location": {
+     "X": -35,
+     "Y": -94,
+     "Z": 54
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_R",
+    "Category": "Door",
+    "Location": {
+     "X": -35,
+     "Y": 94,
+     "Z": 54
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_L",
+    "Category": "Window",
+    "Location": {
+     "X": -35,
+     "Y": -96,
+     "Z": 96
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_L",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_R",
+    "Category": "Window",
+    "Location": {
+     "X": -35,
+     "Y": 96,
+     "Z": 96
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Windshield",
+    "Category": "Windshield",
+    "Location": {
+     "X": 119,
+     "Y": 0,
+     "Z": 109
+    },
+    "Rotation": {
+     "Pitch": -25,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Windshield_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Seat",
+    "Category": "Seat",
+    "Location": {
+     "X": 70,
+     "Y": -34,
+     "Z": 54
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Seat_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Door_L",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "SteeringWheel",
+    "Category": "SteeringWheel",
+    "Location": {
+     "X": 110,
+     "Y": -34,
+     "Z": 76
+    },
+    "Rotation": {
+     "Pitch": 60,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "SteeringWheel_Standard",
+    "ParentSlot": "Seat",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Radio",
+    "Category": "Radio",
+    "Location": {
+     "X": 125,
+     "Y": 0,
+     "Z": 64
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Radio_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Spoiler",
+    "Category": "Spoiler",
+    "Location": {
+     "X": -195,
+     "Y": 0,
+     "Z": 64
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Roof",
+    "Category": "Accessory",
+    "Location": {
+     "X": -35,
+     "Y": 0,
+     "Z": 180
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   }
+  ],
+  "BodyMesh": "",
+  "SpawnWeight": 0.8
+ },
+ {
+  "Name": "Car_Pickup",
+  "DisplayName": "Pickup cansada",
+  "ChassisExtent": {
+   "X": 200,
+   "Y": 88,
+   "Z": 30
+  },
+  "CabinExtent": {
+   "X": 70,
+   "Y": 80,
+   "Z": 46
+  },
+  "CabinOffset": {
+   "X": 35,
+   "Y": 0,
+   "Z": 76
+  },
+  "ChassisMassKg": 560,
+  "BaseValue": 2500,
+  "JunkyardPriceMin": 350,
+  "JunkyardPriceMax": 700,
+  "DriveType": 2,
+  "SeatOffset": {
+   "X": 30,
+   "Y": -32,
+   "Z": 34
+  },
+  "ExitOffset": {
+   "X": 30,
+   "Y": -205,
+   "Z": 64
+  },
+  "FinalDriveRatio": 7.5,
+  "Slots": [
+   {
+    "SlotName": "Suspension_FL",
+    "Category": "Suspension",
+    "Location": {
+     "X": 135,
+     "Y": -72.0,
+     "Z": 16
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Raised",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Suspension_FR",
+    "Category": "Suspension",
+    "Location": {
+     "X": 135,
+     "Y": 72.0,
+     "Z": 16
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Raised",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Suspension_RL",
+    "Category": "Suspension",
+    "Location": {
+     "X": -130,
+     "Y": -72.0,
+     "Z": 16
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Raised",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Suspension_RR",
+    "Category": "Suspension",
+    "Location": {
+     "X": -130,
+     "Y": 72.0,
+     "Z": 16
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Raised",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Wheel_FL",
+    "Category": "Wheel",
+    "Location": {
+     "X": 135,
+     "Y": -90,
+     "Z": -6
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Offroad",
+    "ParentSlot": "Suspension_FL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Wheel_FR",
+    "Category": "Wheel",
+    "Location": {
+     "X": 135,
+     "Y": 90,
+     "Z": -6
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Offroad",
+    "ParentSlot": "Suspension_FR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Wheel_RL",
+    "Category": "Wheel",
+    "Location": {
+     "X": -130,
+     "Y": -90,
+     "Z": -6
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Offroad",
+    "ParentSlot": "Suspension_RL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Wheel_RR",
+    "Category": "Wheel",
+    "Location": {
+     "X": -130,
+     "Y": 90,
+     "Z": -6
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Offroad",
+    "ParentSlot": "Suspension_RR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Hood",
+    "Category": "Hood",
+    "Location": {
+     "X": 150,
+     "Y": 0,
+     "Z": 38
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Hood_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Engine",
+    "Category": "Engine",
+    "Location": {
+     "X": 145,
+     "Y": 0,
+     "Z": 25
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Engine_I3",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Exhaust",
+    "Category": "Exhaust",
+    "Location": {
+     "X": -190,
+     "Y": 35.2,
+     "Z": -28
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Exhaust_Standard",
+    "ParentSlot": "Engine",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Horn",
+    "Category": "Horn",
+    "Location": {
+     "X": 190,
+     "Y": 44.0,
+     "Z": 18
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Horn_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_F",
+    "Category": "Bumper",
+    "Location": {
+     "X": 206,
+     "Y": 0,
+     "Z": -18
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Front",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_R",
+    "Category": "Bumper",
+    "Location": {
+     "X": -206,
+     "Y": 0,
+     "Z": -18
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Rear",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_L",
+    "Category": "Headlight",
+    "Location": {
+     "X": 200,
+     "Y": -70,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_R",
+    "Category": "Headlight",
+    "Location": {
+     "X": 200,
+     "Y": 70,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_L",
+    "Category": "Taillight",
+    "Location": {
+     "X": -200,
+     "Y": -72,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_R",
+    "Category": "Taillight",
+    "Location": {
+     "X": -200,
+     "Y": 72,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_L",
+    "Category": "Door",
+    "Location": {
+     "X": 35,
+     "Y": -92,
+     "Z": 50
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_R",
+    "Category": "Door",
+    "Location": {
+     "X": 35,
+     "Y": 92,
+     "Z": 50
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_L",
+    "Category": "Window",
+    "Location": {
+     "X": 35,
+     "Y": -94,
+     "Z": 92
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_L",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_R",
+    "Category": "Window",
+    "Location": {
+     "X": 35,
+     "Y": 94,
+     "Z": 92
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Windshield",
+    "Category": "Windshield",
+    "Location": {
+     "X": 109,
+     "Y": 0,
+     "Z": 81
+    },
+    "Rotation": {
+     "Pitch": -25,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Windshield_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Seat",
+    "Category": "Seat",
+    "Location": {
+     "X": 30,
+     "Y": -32,
+     "Z": 50
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Seat_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Door_L",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "SteeringWheel",
+    "Category": "SteeringWheel",
+    "Location": {
+     "X": 70,
+     "Y": -32,
+     "Z": 72
+    },
+    "Rotation": {
+     "Pitch": 60,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "SteeringWheel_Standard",
+    "ParentSlot": "Seat",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Radio",
+    "Category": "Radio",
+    "Location": {
+     "X": 85,
+     "Y": 0,
+     "Z": 60
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Radio_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Spoiler",
+    "Category": "Spoiler",
+    "Location": {
+     "X": -190,
+     "Y": 0,
+     "Z": 60
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Roof",
+    "Category": "Accessory",
+    "Location": {
+     "X": 35,
+     "Y": 0,
+     "Z": 128
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   }
+  ],
+  "BodyMesh": "",
+  "SpawnWeight": 0.9
+ },
+ {
+  "Name": "Car_Sport80s",
+  "DisplayName": "Deportivo ochentero",
+  "ChassisExtent": {
+   "X": 185,
+   "Y": 84,
+   "Z": 20
+  },
+  "CabinExtent": {
+   "X": 75,
+   "Y": 76,
+   "Z": 30
+  },
+  "CabinOffset": {
+   "X": -25,
+   "Y": 0,
+   "Z": 50
+  },
+  "ChassisMassKg": 430,
+  "BaseValue": 3400,
+  "JunkyardPriceMin": 600,
+  "JunkyardPriceMax": 1200,
+  "DriveType": 0,
+  "SeatOffset": {
+   "X": -25,
+   "Y": -30,
+   "Z": 22
+  },
+  "ExitOffset": {
+   "X": -25,
+   "Y": -195,
+   "Z": 50
+  },
+  "FinalDriveRatio": 6.5,
+  "Slots": [
+   {
+    "SlotName": "Suspension_FL",
+    "Category": "Suspension",
+    "Location": {
+     "X": 120,
+     "Y": -68.8,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Lowered",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Suspension_FR",
+    "Category": "Suspension",
+    "Location": {
+     "X": 120,
+     "Y": 68.8,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Lowered",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Suspension_RL",
+    "Category": "Suspension",
+    "Location": {
+     "X": -118,
+     "Y": -68.8,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Lowered",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Suspension_RR",
+    "Category": "Suspension",
+    "Location": {
+     "X": -118,
+     "Y": 68.8,
+     "Z": 12
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Suspension_Lowered",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Wheel_FL",
+    "Category": "Wheel",
+    "Location": {
+     "X": 120,
+     "Y": -86,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Slick",
+    "ParentSlot": "Suspension_FL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 0
+   },
+   {
+    "SlotName": "Wheel_FR",
+    "Category": "Wheel",
+    "Location": {
+     "X": 120,
+     "Y": 86,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Slick",
+    "ParentSlot": "Suspension_FR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 1
+   },
+   {
+    "SlotName": "Wheel_RL",
+    "Category": "Wheel",
+    "Location": {
+     "X": -118,
+     "Y": -86,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Slick",
+    "ParentSlot": "Suspension_RL",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 2
+   },
+   {
+    "SlotName": "Wheel_RR",
+    "Category": "Wheel",
+    "Location": {
+     "X": -118,
+     "Y": 86,
+     "Z": -10
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 90
+    },
+    "DefaultPartId": "Wheel_Slick",
+    "ParentSlot": "Suspension_RR",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": 3
+   },
+   {
+    "SlotName": "Hood",
+    "Category": "Hood",
+    "Location": {
+     "X": 135,
+     "Y": 0,
+     "Z": 28
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Hood_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Engine",
+    "Category": "Engine",
+    "Location": {
+     "X": 130,
+     "Y": 0,
+     "Z": 15
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Engine_V6",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Exhaust",
+    "Category": "Exhaust",
+    "Location": {
+     "X": -175,
+     "Y": 33.6,
+     "Z": -18
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Exhaust_Sport",
+    "ParentSlot": "Engine",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Horn",
+    "Category": "Horn",
+    "Location": {
+     "X": 175,
+     "Y": 42.0,
+     "Z": 8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Horn_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Hood",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_F",
+    "Category": "Bumper",
+    "Location": {
+     "X": 191,
+     "Y": 0,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Front",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Bumper_R",
+    "Category": "Bumper",
+    "Location": {
+     "X": -191,
+     "Y": 0,
+     "Z": -8
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Bumper_Rear",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_L",
+    "Category": "Headlight",
+    "Location": {
+     "X": 185,
+     "Y": -66,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Headlight_R",
+    "Category": "Headlight",
+    "Location": {
+     "X": 185,
+     "Y": 66,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Headlight_Standard",
+    "ParentSlot": "Bumper_F",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_L",
+    "Category": "Taillight",
+    "Location": {
+     "X": -185,
+     "Y": -68,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Taillight_R",
+    "Category": "Taillight",
+    "Location": {
+     "X": -185,
+     "Y": 68,
+     "Z": 4
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Taillight_Standard",
+    "ParentSlot": "Bumper_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_L",
+    "Category": "Door",
+    "Location": {
+     "X": -25,
+     "Y": -88,
+     "Z": 40
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Door_R",
+    "Category": "Door",
+    "Location": {
+     "X": -25,
+     "Y": 88,
+     "Z": 40
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Door_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_L",
+    "Category": "Window",
+    "Location": {
+     "X": -25,
+     "Y": -90,
+     "Z": 82
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_L",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Window_R",
+    "Category": "Window",
+    "Location": {
+     "X": -25,
+     "Y": 90,
+     "Z": 82
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Window_Standard",
+    "ParentSlot": "Door_R",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Windshield",
+    "Category": "Windshield",
+    "Location": {
+     "X": 54,
+     "Y": 0,
+     "Z": 55
+    },
+    "Rotation": {
+     "Pitch": -25,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Windshield_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Seat",
+    "Category": "Seat",
+    "Location": {
+     "X": -25,
+     "Y": -30,
+     "Z": 40
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Seat_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "Door_L",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "SteeringWheel",
+    "Category": "SteeringWheel",
+    "Location": {
+     "X": 15,
+     "Y": -30,
+     "Z": 62
+    },
+    "Rotation": {
+     "Pitch": 60,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "SteeringWheel_Standard",
+    "ParentSlot": "Seat",
+    "BlockedBySlot": "",
+    "bRequired": true,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Radio",
+    "Category": "Radio",
+    "Location": {
+     "X": 30,
+     "Y": 0,
+     "Z": 50
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "Radio_Standard",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Spoiler",
+    "Category": "Spoiler",
+    "Location": {
+     "X": -175,
+     "Y": 0,
+     "Z": 50
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   },
+   {
+    "SlotName": "Roof",
+    "Category": "Accessory",
+    "Location": {
+     "X": -25,
+     "Y": 0,
+     "Z": 86
+    },
+    "Rotation": {
+     "Pitch": 0,
+     "Yaw": 0,
+     "Roll": 0
+    },
+    "DefaultPartId": "",
+    "ParentSlot": "",
+    "BlockedBySlot": "",
+    "bRequired": false,
+    "WheelIndex": -1
+   }
+  ],
+  "BodyMesh": "",
+  "SpawnWeight": 0.6
+ }
+]

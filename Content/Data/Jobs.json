@@ -1,0 +1,507 @@
+[
+ {
+  "Name": "JOB_FLAT",
+  "CustomerName": "Doña Remedios",
+  "RequestText": "Tengo una rueda pinchada. Nada más. De verdad.",
+  "Budget": 180,
+  "TimeLimitSeconds": 480,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "WheelRadiusAtLeast",
+    "Value": 28,
+    "Param": "",
+    "Label": "Las cuatro ruedas bien infladas"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 0,
+  "CarModels": [
+   "Car_Tiny",
+   "Car_Sedan"
+  ],
+  "ForcedFault": "None",
+  "ForcedSlot": "Wheel_FL",
+  "ForcedPartId": "Wheel_Flat",
+  "CustomerColor": {
+   "R": 0.9047,
+   "G": 0.3515,
+   "B": 0.2623,
+   "A": 1.0
+  },
+  "Weight": 1.5
+ },
+ {
+  "Name": "JOB_NOISE",
+  "CustomerName": "Paco el del bar",
+  "RequestText": "Hace un ruido horrible. Como un tractor con tos.",
+  "Budget": 350,
+  "TimeLimitSeconds": 600,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "FixNoisyFaults",
+    "Value": 0,
+    "Param": "",
+    "Label": "Ya no hace ese ruido"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "EngineKnock",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.2542,
+   "B": 0.0467,
+   "A": 1.0
+  },
+  "Weight": 1.4
+ },
+ {
+  "Name": "JOB_BRAKES",
+  "CustomerName": "Autoescuela Paciencia",
+  "RequestText": "Los frenos... frenan cuando quieren.",
+  "Budget": 380,
+  "TimeLimitSeconds": 600,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "FixAllFaults",
+    "Value": 0,
+    "Param": "",
+    "Label": "Sin averías ocultas"
+   },
+   {
+    "Type": "NoLooseParts",
+    "Value": 0,
+    "Param": "",
+    "Label": "Nada flojo (¡es una autoescuela!)"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "BrakesWorn",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.3419,
+   "G": 0.6867,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_OVERHEAT",
+  "CustomerName": "Taxista con prisa",
+  "RequestText": "Se calienta en cada semáforo.",
+  "Budget": 360,
+  "TimeLimitSeconds": 540,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "FixAllFaults",
+    "Value": 0,
+    "Param": "",
+    "Label": "No se sobrecalienta"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "WaterPumpFailing",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_RUSH",
+  "CustomerName": "Novia en apuros",
+  "RequestText": "¡Me caso en cinco minutos! Que arranque y que no se caiga nada.",
+  "Budget": 420,
+  "TimeLimitSeconds": 300,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "AllRequiredSlotsFilled",
+    "Value": 0,
+    "Param": "",
+    "Label": "Coche completo"
+   },
+   {
+    "Type": "NoLooseParts",
+    "Value": 0,
+    "Param": "",
+    "Label": "Sin piezas flojas"
+   },
+   {
+    "Type": "MinAverageCondition",
+    "Value": 60,
+    "Param": "",
+    "Label": "Estado medio 60 % o más"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Weight": 0.8
+ },
+ {
+  "Name": "JOB_FAST",
+  "CustomerName": "Chaval del polígono",
+  "RequestText": "Quiero que corra. Mucho.",
+  "Budget": 650,
+  "TimeLimitSeconds": 900,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "TopSpeedAtLeast",
+    "Value": 140,
+    "Param": "",
+    "Label": "140 km/h o más en la recta"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 8,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_RACE",
+  "CustomerName": "Piloto de fin de semana",
+  "RequestText": "Déjalo de carreras: pieza deportiva, alerón y color chillón.",
+  "Budget": 850,
+  "TimeLimitSeconds": 900,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "HasPartWithTag",
+    "Value": 0,
+    "Param": "Sport",
+    "Label": "Una pieza deportiva"
+   },
+   {
+    "Type": "HasCategory",
+    "Value": 0,
+    "Param": "Spoiler",
+    "Label": "Lleva alerón"
+   },
+   {
+    "Type": "VividPaint",
+    "Value": 0,
+    "Param": "",
+    "Label": "Pintura de color vivo"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 18,
+  "CarModels": [
+   "Car_Sedan",
+   "Car_Sport80s",
+   "Car_Tiny"
+  ],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.2542,
+   "B": 0.0467,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_ECO",
+  "CustomerName": "Profe de biología",
+  "RequestText": "Quiero que gaste poquito. El planeta me lo agradecerá.",
+  "Budget": 450,
+  "TimeLimitSeconds": 720,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "FuelUseAtMost",
+    "Value": 6,
+    "Param": "",
+    "Label": "Consumo 6 L/100 km o menos"
+   },
+   {
+    "Type": "TotalMassAtMost",
+    "Value": 950,
+    "Param": "",
+    "Label": "Peso 950 kg o menos"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 5,
+  "CarModels": [
+   "Car_Tiny",
+   "Car_Sedan"
+  ],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.4851,
+   "G": 0.7454,
+   "B": 0.1441,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_BIGWHEELS",
+  "CustomerName": "Granjero moderno",
+  "RequestText": "Ruedas enormes. Las más grandes que tengáis.",
+  "Budget": 520,
+  "TimeLimitSeconds": 900,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "WheelRadiusAtLeast",
+    "Value": 45,
+    "Param": "",
+    "Label": "Ruedas de radio 45 cm o más"
+   }
+  ],
+  "bAbsurd": false,
+  "MinReputation": 12,
+  "CarModels": [
+   "Car_Pickup",
+   "Car_Van",
+   "Car_Tiny"
+  ],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.4851,
+   "G": 0.7454,
+   "B": 0.1441,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_SHIPHORN",
+  "CustomerName": "Capitán retirado",
+  "RequestText": "Quiero que suene como un barco. Me recuerda al mar.",
+  "Budget": 400,
+  "TimeLimitSeconds": 720,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "HasPartId",
+    "Value": 0,
+    "Param": "Horn_Ship",
+    "Label": "Bocina de barco"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.3419,
+   "G": 0.6867,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_TRICOLOR",
+  "CustomerName": "Artista incomprendida",
+  "RequestText": "Píntalo de tres colores. Los que queráis. Sorprendedme.",
+  "Budget": 450,
+  "TimeLimitSeconds": 780,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "DistinctPaintColorsAtLeast",
+    "Value": 3,
+    "Param": "",
+    "Label": "Pintado de 3 colores distintos"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.9047,
+   "G": 0.3515,
+   "B": 0.2623,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_RAMP",
+  "CustomerName": "Especialista de cine",
+  "RequestText": "Tiene que saltar la rampa. Bien alto.",
+  "Budget": 550,
+  "TimeLimitSeconds": 900,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "AirTimeAtLeast",
+    "Value": 1.0,
+    "Param": "",
+    "Label": "Un segundo o más en el aire"
+   },
+   {
+    "Type": "NoBrokenParts",
+    "Value": 0,
+    "Param": "",
+    "Label": "Sin piezas rotas al volver"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 4,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_HORNS",
+  "CustomerName": "Peña taurina",
+  "RequestText": "Ponle cuernos. En el techo. Grandes.",
+  "Budget": 350,
+  "TimeLimitSeconds": 600,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "HasPartId",
+    "Value": 0,
+    "Param": "Accessory_Horns",
+    "Label": "Cuernos en el techo"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 0,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_FLOAT",
+  "CustomerName": "Socorrista precavido",
+  "RequestText": "¿Y si hay una riada? Que lleve flotador.",
+  "Budget": 380,
+  "TimeLimitSeconds": 600,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "HasPartId",
+    "Value": 0,
+    "Param": "Accessory_Float",
+    "Label": "Flotador gigante"
+   },
+   {
+    "Type": "AllRequiredSlotsFilled",
+    "Value": 0,
+    "Param": "",
+    "Label": "Coche completo"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 6,
+  "CarModels": [],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ },
+ {
+  "Name": "JOB_CLOWN",
+  "CustomerName": "Circo ambulante",
+  "RequestText": "Bocina de payaso, ruedas de carretilla. Es para el número.",
+  "Budget": 420,
+  "TimeLimitSeconds": 720,
+  "Tolerance": 0.1,
+  "Requirements": [
+   {
+    "Type": "HasPartId",
+    "Value": 0,
+    "Param": "Horn_Clown",
+    "Label": "Bocina de payaso"
+   },
+   {
+    "Type": "HasPartId",
+    "Value": 0,
+    "Param": "Wheel_Barrow",
+    "Label": "Rueda de carretilla"
+   }
+  ],
+  "bAbsurd": true,
+  "MinReputation": 10,
+  "CarModels": [
+   "Car_Tiny"
+  ],
+  "ForcedFault": "None",
+  "ForcedSlot": "",
+  "ForcedPartId": "",
+  "CustomerColor": {
+   "R": 1.0,
+   "G": 0.2542,
+   "B": 0.0467,
+   "A": 1.0
+  },
+  "Weight": 1.0
+ }
+]

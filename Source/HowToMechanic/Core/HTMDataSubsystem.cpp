@@ -185,7 +185,7 @@ TArray<FText> UHTMDataSubsystem::GetCarNames() const
 	{
 		for (const auto& Pair : CarNames->GetRowMap())
 		{
-			Result.Add(reinterpret_cast<const FCarNameRow*>(Pair.Value)->Name);
+			Result.Add(reinterpret_cast<const FCarNameRow*>(Pair.Value)->CarName);
 		}
 	}
 	return Result;

@@ -1,0 +1,1729 @@
+[
+ {
+  "Name": "Engine_I3",
+  "DisplayName": "Motor 3 cilindros",
+  "Category": "Engine",
+  "MassKg": 95,
+  "Price": 450,
+  "BoltCount": 4,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 110,
+   "MaxSpeedKmh": 125,
+   "FuelUse": 5.5,
+   "HeatGeneration": 3.0,
+   "Cooling": 0.6,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Eco",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 70,
+   "Y": 60,
+   "Z": 50
+  },
+  "PlaceholderColor": {
+   "R": 0.1119,
+   "G": 0.1022,
+   "B": 0.0953,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Engine_V6",
+  "DisplayName": "Motor V6",
+  "Category": "Engine",
+  "MassKg": 150,
+  "Price": 1100,
+  "BoltCount": 4,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 200,
+   "MaxSpeedKmh": 175,
+   "FuelUse": 9.5,
+   "HeatGeneration": 4.2,
+   "Cooling": 0.6,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 85,
+   "Y": 70,
+   "Z": 55
+  },
+  "PlaceholderColor": {
+   "R": 0.0482,
+   "G": 0.2016,
+   "B": 0.4397,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Engine_V8_Huge",
+  "DisplayName": "Motor V8 ENORME",
+  "Category": "Engine",
+  "MassKg": 230,
+  "Price": 2200,
+  "BoltCount": 6,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 380,
+   "MaxSpeedKmh": 215,
+   "FuelUse": 17,
+   "HeatGeneration": 6.0,
+   "Cooling": 0.6,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport",
+   "Absurd"
+  ],
+  "ShelfLevel": 3,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 110,
+   "Y": 80,
+   "Z": 70
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Engine_Electric",
+  "DisplayName": "Motor eléctrico",
+  "Category": "Engine",
+  "MassKg": 70,
+  "Price": 1600,
+  "BoltCount": 4,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 240,
+   "MaxSpeedKmh": 150,
+   "FuelUse": 0,
+   "HeatGeneration": 1.2,
+   "Cooling": 0.8,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Eco"
+  ],
+  "ShelfLevel": 3,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 55,
+   "Y": 55,
+   "Z": 60
+  },
+  "PlaceholderColor": {
+   "R": 0.4851,
+   "G": 0.7454,
+   "B": 0.1441,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Exhaust_Standard",
+  "DisplayName": "Tubo de escape",
+  "Category": "Exhaust",
+  "MassKg": 9,
+  "Price": 90,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 1.0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 90,
+   "Y": 12,
+   "Z": 12
+  },
+  "PlaceholderColor": {
+   "R": 0.6939,
+   "G": 0.7231,
+   "B": 0.7605,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Exhaust_Sport",
+  "DisplayName": "Escape deportivo",
+  "Category": "Exhaust",
+  "MassKg": 11,
+  "Price": 320,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 1.2
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 100,
+   "Y": 16,
+   "Z": 16
+  },
+  "PlaceholderColor": {
+   "R": 1.0,
+   "G": 0.2542,
+   "B": 0.0467,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Exhaust_GiantPipe",
+  "DisplayName": "Tubazo gigante",
+  "Category": "Exhaust",
+  "MassKg": 26,
+  "Price": 380,
+  "BoltCount": 3,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 1.3
+  },
+  "Tags": [
+   "Sport",
+   "Absurd"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 140,
+   "Y": 40,
+   "Z": 40
+  },
+  "PlaceholderColor": {
+   "R": 0.6939,
+   "G": 0.7231,
+   "B": 0.7605,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Standard",
+  "DisplayName": "Rueda",
+  "Category": "Wheel",
+  "MassKg": 12,
+  "Price": 70,
+  "BoltCount": 4,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 30,
+   "Grip": 1.1,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 60,
+   "Y": 60,
+   "Z": 22
+  },
+  "PlaceholderColor": {
+   "R": 0.0331,
+   "G": 0.0307,
+   "B": 0.0369,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Flat",
+  "DisplayName": "Rueda pinchada",
+  "Category": "Wheel",
+  "MassKg": 11,
+  "Price": 5,
+  "BoltCount": 4,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 24,
+   "Grip": 0.55,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Junk"
+  ],
+  "ShelfLevel": 0,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 48,
+   "Y": 60,
+   "Z": 22
+  },
+  "PlaceholderColor": {
+   "R": 0.0331,
+   "G": 0.0307,
+   "B": 0.0369,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Offroad",
+  "DisplayName": "Rueda todoterreno",
+  "Category": "Wheel",
+  "MassKg": 18,
+  "Price": 160,
+  "BoltCount": 4,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 36,
+   "Grip": 1.3,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Offroad"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 72,
+   "Y": 72,
+   "Z": 30
+  },
+  "PlaceholderColor": {
+   "R": 0.0331,
+   "G": 0.0307,
+   "B": 0.0369,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Slick",
+  "DisplayName": "Rueda slick",
+  "Category": "Wheel",
+  "MassKg": 10,
+  "Price": 190,
+  "BoltCount": 4,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 30,
+   "Grip": 1.45,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 60,
+   "Y": 60,
+   "Z": 28
+  },
+  "PlaceholderColor": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Giant",
+  "DisplayName": "Rueda de tractor",
+  "Category": "Wheel",
+  "MassKg": 38,
+  "Price": 420,
+  "BoltCount": 5,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 48,
+   "Grip": 1.2,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Offroad",
+   "Absurd"
+  ],
+  "ShelfLevel": 3,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 96,
+   "Y": 96,
+   "Z": 40
+  },
+  "PlaceholderColor": {
+   "R": 0.0331,
+   "G": 0.0307,
+   "B": 0.0369,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Wheel_Barrow",
+  "DisplayName": "Rueda de carretilla",
+  "Category": "Wheel",
+  "MassKg": 3,
+  "Price": 20,
+  "BoltCount": 2,
+  "RequiredTool": "TireIron",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 16,
+   "Grip": 0.8,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Absurd",
+   "Eco"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 32,
+   "Y": 32,
+   "Z": 10
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Suspension_Standard",
+  "DisplayName": "Suspensión",
+  "Category": "Suspension",
+  "MassKg": 9,
+  "Price": 110,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 18,
+   "Stiffness": 2.4,
+   "Damping": 0.35,
+   "BrakePower": 1.0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 14,
+   "Z": 30
+  },
+  "PlaceholderColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Suspension_Lowered",
+  "DisplayName": "Suspensión rebajada",
+  "Category": "Suspension",
+  "MassKg": 8,
+  "Price": 240,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 9,
+   "Stiffness": 3.6,
+   "Damping": 0.45,
+   "BrakePower": 1.15,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 14,
+   "Z": 18
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Suspension_Raised",
+  "DisplayName": "Suspensión elevada",
+  "Category": "Suspension",
+  "MassKg": 12,
+  "Price": 220,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 32,
+   "Stiffness": 1.7,
+   "Damping": 0.3,
+   "BrakePower": 1.0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Offroad"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 16,
+   "Y": 16,
+   "Z": 46
+  },
+  "PlaceholderColor": {
+   "R": 0.4851,
+   "G": 0.7454,
+   "B": 0.1441,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Suspension_Broken",
+  "DisplayName": "Suspensión reventada",
+  "Category": "Suspension",
+  "MassKg": 9,
+  "Price": 5,
+  "BoltCount": 2,
+  "RequiredTool": "Wrench",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 16,
+   "Stiffness": 0.7,
+   "Damping": 0.1,
+   "BrakePower": 0.5,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Junk"
+  ],
+  "ShelfLevel": 0,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 14,
+   "Z": 26
+  },
+  "PlaceholderColor": {
+   "R": 0.4621,
+   "G": 0.1301,
+   "B": 0.0123,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Hood_Standard",
+  "DisplayName": "Capó",
+  "Category": "Hood",
+  "MassKg": 14,
+  "Price": 150,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 90,
+   "Y": 140,
+   "Z": 5
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Hood_Scoop",
+  "DisplayName": "Capó con toma de aire",
+  "Category": "Hood",
+  "MassKg": 16,
+  "Price": 300,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0.02,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 90,
+   "Y": 140,
+   "Z": 14
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Door_Standard",
+  "DisplayName": "Puerta",
+  "Category": "Door",
+  "MassKg": 20,
+  "Price": 140,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 110,
+   "Y": 6,
+   "Z": 70
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Trunk_Standard",
+  "DisplayName": "Maletero",
+  "Category": "Trunk",
+  "MassKg": 12,
+  "Price": 110,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 55,
+   "Y": 140,
+   "Z": 5
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Bumper_Front",
+  "DisplayName": "Parachoques delantero",
+  "Category": "Bumper",
+  "MassKg": 9,
+  "Price": 90,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 160,
+   "Z": 22
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Bumper_Rear",
+  "DisplayName": "Parachoques trasero",
+  "Category": "Bumper",
+  "MassKg": 9,
+  "Price": 90,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 160,
+   "Z": 22
+  },
+  "PlaceholderColor": {
+   "R": 0.956,
+   "G": 0.9301,
+   "B": 0.8714,
+   "A": 1.0
+  },
+  "bUseCarColor": true,
+  "bPaintable": true
+ },
+ {
+  "Name": "Spoiler_Race",
+  "DisplayName": "Alerón de carreras",
+  "Category": "Spoiler",
+  "MassKg": 7,
+  "Price": 350,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0.3,
+   "Drag": 0.05,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 30,
+   "Y": 150,
+   "Z": 6
+  },
+  "PlaceholderColor": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": true
+ },
+ {
+  "Name": "Headlight_Standard",
+  "DisplayName": "Faro",
+  "Category": "Headlight",
+  "MassKg": 2,
+  "Price": 45,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Sphere",
+  "PlaceholderSize": {
+   "X": 22,
+   "Y": 22,
+   "Z": 22
+  },
+  "PlaceholderColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Taillight_Standard",
+  "DisplayName": "Piloto trasero",
+  "Category": "Taillight",
+  "MassKg": 1.5,
+  "Price": 35,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 6,
+   "Y": 26,
+   "Z": 14
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Windshield_Standard",
+  "DisplayName": "Parabrisas",
+  "Category": "Windshield",
+  "MassKg": 15,
+  "Price": 180,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 6,
+   "Y": 140,
+   "Z": 60
+  },
+  "PlaceholderColor": {
+   "R": 0.5776,
+   "G": 0.855,
+   "B": 0.9131,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Window_Standard",
+  "DisplayName": "Ventanilla",
+  "Category": "Window",
+  "MassKg": 5,
+  "Price": 60,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 70,
+   "Y": 4,
+   "Z": 36
+  },
+  "PlaceholderColor": {
+   "R": 0.5776,
+   "G": 0.855,
+   "B": 0.9131,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Seat_Standard",
+  "DisplayName": "Asiento",
+  "Category": "Seat",
+  "MassKg": 16,
+  "Price": 120,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 50,
+   "Y": 50,
+   "Z": 70
+  },
+  "PlaceholderColor": {
+   "R": 0.9047,
+   "G": 0.3515,
+   "B": 0.2623,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Seat_Bucket",
+  "DisplayName": "Asiento baquet",
+  "Category": "Seat",
+  "MassKg": 10,
+  "Price": 260,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Sport"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 50,
+   "Y": 46,
+   "Z": 75
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "SteeringWheel_Standard",
+  "DisplayName": "Volante",
+  "Category": "SteeringWheel",
+  "MassKg": 3,
+  "Price": 60,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 38,
+   "Y": 38,
+   "Z": 6
+  },
+  "PlaceholderColor": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Radio_Standard",
+  "DisplayName": "Radio",
+  "Category": "Radio",
+  "MassKg": 3,
+  "Price": 70,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 18,
+   "Y": 26,
+   "Z": 10
+  },
+  "PlaceholderColor": {
+   "R": 0.0284,
+   "G": 0.0232,
+   "B": 0.0395,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Horn_Standard",
+  "DisplayName": "Bocina",
+  "Category": "Horn",
+  "MassKg": 1,
+  "Price": 30,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Essential",
+   "Original"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "Standard",
+  "Mesh": "",
+  "PlaceholderShape": "Cone",
+  "PlaceholderSize": {
+   "X": 14,
+   "Y": 14,
+   "Z": 16
+  },
+  "PlaceholderColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Horn_Ship",
+  "DisplayName": "Bocina de barco",
+  "Category": "Horn",
+  "MassKg": 6,
+  "Price": 260,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Absurd"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "Ship",
+  "Mesh": "",
+  "PlaceholderShape": "Cone",
+  "PlaceholderSize": {
+   "X": 30,
+   "Y": 30,
+   "Z": 50
+  },
+  "PlaceholderColor": {
+   "R": 0.6939,
+   "G": 0.7231,
+   "B": 0.7605,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Horn_Clown",
+  "DisplayName": "Bocina de payaso",
+  "Category": "Horn",
+  "MassKg": 1,
+  "Price": 90,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Absurd"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "Clown",
+  "Mesh": "",
+  "PlaceholderShape": "Sphere",
+  "PlaceholderSize": {
+   "X": 18,
+   "Y": 18,
+   "Z": 18
+  },
+  "PlaceholderColor": {
+   "R": 0.7835,
+   "G": 0.0648,
+   "B": 0.0742,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ },
+ {
+  "Name": "Accessory_Horns",
+  "DisplayName": "Cuernos de toro",
+  "Category": "Accessory",
+  "MassKg": 4,
+  "Price": 150,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0.03,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Absurd"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cone",
+  "PlaceholderSize": {
+   "X": 18,
+   "Y": 110,
+   "Z": 30
+  },
+  "PlaceholderColor": {
+   "R": 0.9216,
+   "G": 0.7991,
+   "B": 0.5333,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": true
+ },
+ {
+  "Name": "Accessory_Float",
+  "DisplayName": "Flotador gigante",
+  "Category": "Accessory",
+  "MassKg": 6,
+  "Price": 120,
+  "BoltCount": 1,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0.15,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Absurd"
+  ],
+  "ShelfLevel": 1,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cylinder",
+  "PlaceholderSize": {
+   "X": 120,
+   "Y": 120,
+   "Z": 30
+  },
+  "PlaceholderColor": {
+   "R": 1.0,
+   "G": 0.6445,
+   "B": 0.0497,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": true
+ },
+ {
+  "Name": "Accessory_RoofRack",
+  "DisplayName": "Baca",
+  "Category": "Accessory",
+  "MassKg": 8,
+  "Price": 90,
+  "BoltCount": 2,
+  "RequiredTool": "Screwdriver",
+  "Stats": {
+   "TorqueNm": 0,
+   "MaxSpeedKmh": 0,
+   "FuelUse": 0,
+   "HeatGeneration": 0,
+   "Cooling": 0,
+   "WheelRadius": 0,
+   "Grip": 0,
+   "RestLength": 0,
+   "Stiffness": 0,
+   "Damping": 0,
+   "BrakePower": 0,
+   "Downforce": 0,
+   "Drag": 0.04,
+   "TorqueMult": 0
+  },
+  "Tags": [
+   "Offroad"
+  ],
+  "ShelfLevel": 2,
+  "SoundTag": "",
+  "Mesh": "",
+  "PlaceholderShape": "Cube",
+  "PlaceholderSize": {
+   "X": 110,
+   "Y": 90,
+   "Z": 8
+  },
+  "PlaceholderColor": {
+   "R": 0.6939,
+   "G": 0.7231,
+   "B": 0.7605,
+   "A": 1.0
+  },
+  "bUseCarColor": false,
+  "bPaintable": false
+ }
+]

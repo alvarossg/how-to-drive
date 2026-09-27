@@ -1,0 +1,44 @@
+[
+ {
+  "Name": "Trait_HornSticks",
+  "Trait": "HornSticks",
+  "Description": "La bocina se atasca",
+  "Weight": 1.0
+ },
+ {
+  "Name": "Trait_DoorJammed",
+  "Trait": "DriverDoorJammed",
+  "Description": "La puerta del conductor no abre: se entra por la otra",
+  "Weight": 1.0
+ },
+ {
+  "Name": "Trait_SmellsWeird",
+  "Trait": "SmellsWeird",
+  "Description": "Huele raro (nadie sabe por qué)",
+  "Weight": 1.2
+ },
+ {
+  "Name": "Trait_PullsLeft",
+  "Trait": "PullsLeft",
+  "Description": "Tira a la izquierda",
+  "Weight": 1.0
+ },
+ {
+  "Name": "Trait_PullsRight",
+  "Trait": "PullsRight",
+  "Description": "Tira a la derecha",
+  "Weight": 1.0
+ },
+ {
+  "Name": "Trait_RadioStuck",
+  "Trait": "RadioStuckOn",
+  "Description": "La radio no se apaga",
+  "Weight": 0.8
+ },
+ {
+  "Name": "Trait_Wobbly",
+  "Trait": "WobblyWheels",
+  "Description": "Las ruedas bailan",
+  "Weight": 0.8
+ }
+]
