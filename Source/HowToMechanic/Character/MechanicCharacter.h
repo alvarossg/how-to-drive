@@ -52,6 +52,8 @@ public:
 	EMechanicStance GetStance() const { return Stance; }
 	bool IsProne() const { return Stance == EMechanicStance::Prone; }
 	bool IsWet() const { return WetOverlaps > 0; }
+	bool IsSprinting() const { return bSprinting; }
+	FVector GetLastImpactDirection() const { return LastImpactDirection; }
 	AModularCar* GetCurrentCar() const { return CurrentCar; }
 	/** Puede moverse e interactuar. */
 	bool CanAct() const { return MechanicState == EMechanicState::Normal; }

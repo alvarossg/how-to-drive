@@ -10,7 +10,7 @@
    "X": 1400,
    "Y": 1200
   },
-  "bHasJackStands": false,
+  "bHasJackStands": true,
   "bHasLift": false,
   "bHasEngineCrane": false,
   "bHasPaintBooth": false,

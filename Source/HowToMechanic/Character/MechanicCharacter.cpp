@@ -163,6 +163,15 @@ void AMechanicCharacter::BeginPlay()
 	const bool bHasSkeletal = GetMesh()->GetSkeletalMeshAsset() != nullptr;
 	PlaceholderRoot->SetVisibility(!bHasSkeletal, true);
 	GetMesh()->SetVisibility(bHasSkeletal);
+	if (bHasSkeletal && Expression)
+	{
+		// Arte final: la cara es el hueco de material "Face" de SK_Mechanic (texturas EyesTex/BrowsTex/MouthTex).
+		const int32 FaceIndex = GetMesh()->GetMaterialIndex(TEXT("Face"));
+		if (FaceIndex != INDEX_NONE)
+		{
+			Expression->SetFaceMaterial(GetMesh()->CreateAndSetMaterialInstanceDynamic(FaceIndex));
+		}
+	}
 
 	auto Paint = [this](UStaticMeshComponent* Comp, const FLinearColor& Color, FName Key)
 	{
