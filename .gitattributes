@@ -27,3 +27,6 @@ Art/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 *.json text eol=lf
 *.csv text eol=lf
 *.uproject text eol=lf
+
+# Scripts de Windows con fin de línea CRLF
+*.bat text eol=crlf

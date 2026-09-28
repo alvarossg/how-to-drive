@@ -17,6 +17,11 @@ un imperio. La diversión sale de la física, de la interacción entre jugadores
 
 ## Arranque rápido
 
+**Lo más fácil:** doble clic en `COMPILAR_Y_ABRIR.bat`. Busca Unreal 5.4, compila y abre el editor. Si falla, abre
+`compilacion.txt` con los errores.
+
+A mano:
+
 1. Clic derecho en `HowToMechanic.uproject` → *Generate Visual Studio project files* → compila
    **Development Editor / Win64**.
 2. Abre el proyecto. En el primer arranque se generan solos los datos (`DT_*`), `DA_Tuning`, los materiales y los

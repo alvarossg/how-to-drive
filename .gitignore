@@ -21,3 +21,6 @@ compile_commands.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Log de COMPILAR_Y_ABRIR.bat
+compilacion.txt
