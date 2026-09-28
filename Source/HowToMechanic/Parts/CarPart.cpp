@@ -10,6 +10,7 @@
 #include "Core/HTMPlayerController.h"
 #include "Core/HTMTelemetrySubsystem.h"
 #include "Core/HTMPalette.h"
+#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Engine/OverlapResult.h"
 #include "Engine/StaticMesh.h"

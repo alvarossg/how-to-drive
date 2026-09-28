@@ -7,6 +7,7 @@
 #include "Engine/Canvas.h"
 #include "Engine/Engine.h"
 #include "Engine/Font.h"
+#include "Components/InputComponent.h"
 #include "InputCoreTypes.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -69,41 +70,41 @@ void AHTMMenuPlayerController::BeginPlay()
 	}
 }
 
-bool AHTMMenuPlayerController::InputKey(const FInputKeyParams& Params)
+void AHTMMenuPlayerController::SetupInputComponent()
 {
-	const bool bHandled = Super::InputKey(Params);
-	if (Params.Event != IE_Pressed)
+	Super::SetupInputComponent();
+	if (!InputComponent)
 	{
-		return bHandled;
+		return;
 	}
-	AHTMMenuHUD* Menu = Cast<AHTMMenuHUD>(GetHUD());
-	if (!Menu)
+	// Navegación con teclado y mando (el ratón usa los hitboxes del HUD).
+	for (const FKey& Key : { EKeys::Up, EKeys::W, EKeys::Gamepad_DPad_Up, EKeys::Gamepad_LeftStick_Up })
 	{
-		return bHandled;
+		InputComponent->BindKey(Key, IE_Pressed, this, &AHTMMenuPlayerController::MenuUp);
 	}
-	const FKey& Key = Params.Key;
-	if (Key == EKeys::Up || Key == EKeys::W || Key == EKeys::Gamepad_DPad_Up || Key == EKeys::Gamepad_LeftStick_Up)
+	for (const FKey& Key : { EKeys::Down, EKeys::S, EKeys::Gamepad_DPad_Down, EKeys::Gamepad_LeftStick_Down })
 	{
-		Menu->MoveSelection(-1);
-		return true;
+		InputComponent->BindKey(Key, IE_Pressed, this, &AHTMMenuPlayerController::MenuDown);
 	}
-	if (Key == EKeys::Down || Key == EKeys::S || Key == EKeys::Gamepad_DPad_Down || Key == EKeys::Gamepad_LeftStick_Down)
+	for (const FKey& Key : { EKeys::Enter, EKeys::SpaceBar, EKeys::Gamepad_FaceButton_Bottom })
 	{
-		Menu->MoveSelection(1);
-		return true;
+		InputComponent->BindKey(Key, IE_Pressed, this, &AHTMMenuPlayerController::MenuAccept);
 	}
-	if (Key == EKeys::Enter || Key == EKeys::SpaceBar || Key == EKeys::Gamepad_FaceButton_Bottom)
+	for (const FKey& Key : { EKeys::Escape, EKeys::BackSpace, EKeys::Gamepad_FaceButton_Right })
 	{
-		Menu->ActivateSelection();
-		return true;
+		InputComponent->BindKey(Key, IE_Pressed, this, &AHTMMenuPlayerController::MenuBack);
 	}
-	if (Key == EKeys::Escape || Key == EKeys::BackSpace || Key == EKeys::Gamepad_FaceButton_Right)
-	{
-		Menu->Back();
-		return true;
-	}
-	return bHandled;
 }
+
+AHTMMenuHUD* AHTMMenuPlayerController::GetMenuHUD() const
+{
+	return Cast<AHTMMenuHUD>(GetHUD());
+}
+
+void AHTMMenuPlayerController::MenuUp()     { if (AHTMMenuHUD* Menu = GetMenuHUD()) { Menu->MoveSelection(-1); } }
+void AHTMMenuPlayerController::MenuDown()   { if (AHTMMenuHUD* Menu = GetMenuHUD()) { Menu->MoveSelection(1); } }
+void AHTMMenuPlayerController::MenuAccept() { if (AHTMMenuHUD* Menu = GetMenuHUD()) { Menu->ActivateSelection(); } }
+void AHTMMenuPlayerController::MenuBack()   { if (AHTMMenuHUD* Menu = GetMenuHUD()) { Menu->Back(); } }
 
 // ============================================================================ HUD de menú
 

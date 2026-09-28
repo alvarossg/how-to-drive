@@ -27,7 +27,16 @@ class HOWTOMECHANIC_API AHTMMenuPlayerController : public APlayerController
 public:
 	AHTMMenuPlayerController();
 	virtual void BeginPlay() override;
-	virtual bool InputKey(const FInputKeyParams& Params) override;
+
+protected:
+	virtual void SetupInputComponent() override;
+
+private:
+	void MenuUp();
+	void MenuDown();
+	void MenuAccept();
+	void MenuBack();
+	class AHTMMenuHUD* GetMenuHUD() const;
 };
 
 /**
