@@ -14,7 +14,15 @@ if not exist "%PROJ%" (
   echo  [X] No encuentro HowToMechanic.uproject.
   echo      Pon este archivo dentro de la carpeta del proyecto
   echo      o descomprime el proyecto en C:\Juegos\HowToMechanic
-  goto :fin
+  goto :incompleto
+echo  [X] Unreal Engine 5.4 esta instalado a medias: faltan archivos del motor.
+echo      Epic Games Launcher - Unreal Engine - Biblioteca:
+echo      - si el recuadro de 5.4 muestra una barra de progreso, espera a que acabe;
+echo      - si no, pulsa la flechita junto a Iniciar y elige Verificar.
+echo      Cuando termine, vuelve a hacer doble clic en este archivo.
+goto :fin
+
+:fin
 )
 for %%P in ("%PROJ%") do set "PROJDIR=%%~dpP"
 echo  Proyecto: %PROJ%
@@ -30,6 +38,8 @@ if not defined UE (
 )
 echo  Unreal:   %UE%
 echo.
+if not exist "%UE%\Engine\Build\BatchFiles\Build.bat" goto :incompleto
+if not exist "%UE%\Engine\Binaries\Win64\UnrealEditor.exe" goto :incompleto
 
 rem --- 3. Compilar (usa Visual Studio 2022 por debajo) ---
 set "LOG=%PROJDIR%compilacion.txt"
