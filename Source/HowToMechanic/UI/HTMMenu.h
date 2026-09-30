@@ -7,6 +7,7 @@
 #include "HTMMenu.generated.h"
 
 class UFont;
+class AHTMMenuHUD;
 
 /** Modo de juego de L_MainMenu: sin pawn, ratón visible, HUD de menú. */
 UCLASS()
@@ -36,7 +37,7 @@ private:
 	void MenuDown();
 	void MenuAccept();
 	void MenuBack();
-	class AHTMMenuHUD* GetMenuHUD() const;
+	AHTMMenuHUD* GetMenuHUD() const;
 };
 
 /**
